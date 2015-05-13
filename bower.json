@@ -9,7 +9,7 @@
   ],
   "overrides" : {
     "Chart.js" : {
-      "main" : "./**/*.js"
+      "main" : "Chart.js"
     }
   },
   "dependencies": {}
