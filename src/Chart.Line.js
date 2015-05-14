@@ -187,6 +187,7 @@
 				valuesCount : labels.length,
 				beginAtZero : this.options.scaleBeginAtZero,
 				integersOnly : this.options.scaleIntegersOnly,
+        overrideRotation: this.options.overrideRotation
 				calculateYRange : function(currentHeight){
 					var updatedRanges = helpers.calculateScaleRange(
 						dataTotal(),
